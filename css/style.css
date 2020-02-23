@@ -66,6 +66,7 @@ button.btn {
   padding: 1rem 3rem;
   font-size: 1rem;
   font-family: var(--Livvic);
+
   /* cursor: pointer;*/
   outline: none;
 }
@@ -256,7 +257,8 @@ main .site-title .btn:hover {
 h1 {
   text-align: center;
   color: forestgreen;
-  margin: 30px 0 50px;
+  font-family: var(--Abel);
+  /*margin: 30px 0 50px;*/
 }
 .gallery {
   margin: 10px;
@@ -553,13 +555,14 @@ main .map {
     width: 80% !important;
   }
   main .site-title {
-    background: url('../images/2/39.jpg');
+    background: url('../images/2/30.jpg');
     background-size: cover;
 
     height: 90vh;
     display: flex;
     justify-content: center;
   }
+
   main .section-row {
     padding-left: 45px;
   }
