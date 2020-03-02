@@ -188,10 +188,7 @@ p {
   position: relative;
   transition: 1s;
 }
-.profile-box:hover {
-  /* transform: scale(1.01); */
-  transform: scale(0.95);
-}
+
 
 .profile-box img {
   width: 100px;
