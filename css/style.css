@@ -122,7 +122,7 @@ p {
 }
 
 .collapse {
-  height: 26rem;
+  height: 21rem;
 }
 .nav .nav-items {
   display: flex;
@@ -184,17 +184,20 @@ p {
   margin-bottom: 30px;
   /* box-shadow: 0 10px 10px 0 rgba(115, 193, 255, 0.1);*/
   box-shadow: 0px 30px 30px 0 #000000;
-  padding: 20px;
+  padding: 20px 50px;
   position: relative;
   transition: 1s;
 }
-
+/* .profile-box:hover {
+  transform: scale(1.01);
+  transform: scale(0.95);
+} */
 
 .profile-box img {
   width: 100px;
   position: absolute;
   top: 20px;
-  right: 90px;
+  right: 121px;
   /* border-radius: 4px; */
 
   border-radius: 50%;
@@ -227,7 +230,7 @@ p {
 /*-------Site Title -----------*/
 main .site-title {
   /* background: url('../images/2/39.jpg');6/4*/
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/2/38.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/back.jpg');
   background-size: cover;
   height: 110vh;
   display: flex;
@@ -249,6 +252,11 @@ main .site-title .btn {
   margin: 1.8rem;
   background: var(--sky);
 }
+/*****************/
+/* .btn {
+  background: var(--sky);
+} */
+/****************/
 /*  my change*/
 main .site-title a:hover {
   color: var(--white);
@@ -500,6 +508,18 @@ main .map {
 }
 
 /*********************************/
+@media only screen and (min-width: 1600px) {
+  .profile-box {
+    padding: 20px 100px;
+  }
+  .profile-box img {
+    right: 168px;
+  }
+  .nav {
+    min-height: 7vh;
+  }
+}
+/*********************************/
 @media only screen and (max-width: 1130px) {
   .site-content .post-content > .post-image .post-info {
     left: 2rem !important;
@@ -565,7 +585,7 @@ main .map {
     width: 80% !important;
   }
   main .site-title {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/2/30.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/back.jpg');
     background-size: cover;
 
     height: 90vh;
@@ -601,5 +621,11 @@ main .map {
   }
   .iframe-container iframe {
     padding: 15px;
+  }
+  .profile-box {
+    padding: 20px;
+  }
+  .profile-box img {
+    right: 90px;
   }
 }
