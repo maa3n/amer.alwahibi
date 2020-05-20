@@ -66,7 +66,7 @@ button.btn {
   border-radius: 2rem;
   padding: 1rem 3rem;
   font-size: 1rem;
-  font-family: var(--Livvic);
+  /* font-family: var(--Livvic); */
 
   /* cursor: pointer;*/
   outline: none;
@@ -188,10 +188,12 @@ p {
   position: relative;
   transition: 1s;
 }
-/* .profile-box:hover {
-  transform: scale(1.01);
-  transform: scale(0.95);
-} */
+.profile-box:hover {
+  /* transform: scale(1.01); */
+  /* transform: scale(0.95); */
+  background: #104f55;
+  /* border: 1px solid var(--white); */
+}
 
 .profile-box img {
   width: 100px;
@@ -219,8 +221,9 @@ p {
   width: 120px;
 } */
 .btn:hover {
-  background: #2196f3;
-  border: 1px solid var(--white);
+  background: #104f55;
+  border: 2px solid var(--white);
+  color: var(--white);
 }
 
 /********************************/
